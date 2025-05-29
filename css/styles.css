@@ -1,0 +1,56 @@
+/* Nav bar style */
+.navbar {
+  display:block;
+  background-color: #111;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      height: 75px;
+      width: auto;
+      margin-right: 16px;
+      filter: drop-shadow(0 0 2px rgba(0,0,0,0.3));
+    }
+    .nav-center {
+      flex: 1;
+    }
+    .nav-right {
+      display: flex;
+      align-items: center;
+    }
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.1s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #ffcc00;
+}
+
+body{
+  background-image: url('/images/background_index.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional: makes the background stay in place */
+  font-family: 'Segoe UI', sans-serif;
+  color: white; /* or black, depending on your image */
+}
