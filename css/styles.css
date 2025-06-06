@@ -6,7 +6,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed; /* optional: makes the background stay in place */
   font-family: 'Segoe UI', sans-serif;
-  color: silver;
+  color: white;
 }
 
 .navbar {
@@ -67,6 +67,7 @@ body{
 
 .chess_club {
   font-family: 'Courier New', Courier, monospace;
+  color: burlywood;
   font-weight: 800;
   font-size: 50px;
   margin-bottom: 50px;
@@ -93,4 +94,43 @@ body{
 }
 .icon-bar img:hover {
   transform: scale(1.3);
+}
+
+.logo-at-center{
+  display: block;
+  margin-left:50px;
+}
+
+.logo-about{
+  height: 250px;
+  width: auto;;
+}
+
+.main{
+  display: block;
+  margin-left:200px;
+  font-size:20px;
+  text-align: center;
+  margin-right: 200px;
+  margin-block-end: 100px;
+}
+
+.heading{
+  font-size:50px;
+  color:#FFD700;
+}
+
+.team{
+  margin-left:200px;
+  margin-right:200px;
+  display: block;
+}
+
+.cordi{
+  display: inline-block;
+  text-align: center;
+}
+
+.cordi-image{
+  
 }
