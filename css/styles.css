@@ -83,7 +83,7 @@ body{
   display: inline-block;
   background: transparent;
   vertical-align: top;
-  transform: translateX(700px);
+  transform: translateX(740px);
 }
 .icon-bar img {
   height: 75px;
@@ -129,8 +129,33 @@ body{
 .cordi{
   display: inline-block;
   text-align: center;
+  margin-top: 10px;
+  margin-right:20px;
 }
 
-.cordi-image{
-  
+.cordi-name {
+  font-size: 25px;
+  color: silver;
+  margin-top: 10px;
 }
+
+.cordi-img{
+  width: 250px; 
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.footer{
+  text-align: center;
+  line-height: 7px;
+  font-size: 15px;
+  margin-top: 60px;
+  opacity: 0.5;
+}
+
+.footer a {
+  color: gold;
+  text-decoration: underline; 
+}
+
