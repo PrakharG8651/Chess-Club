@@ -118,6 +118,9 @@ body{
 .heading{
   font-size:50px;
   color:#FFD700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+  margin-bottom: 10px;
 }
 
 .team{
@@ -159,3 +162,7 @@ body{
   text-decoration: underline; 
 }
 
+.icon{
+  height: 50px;
+  width: 50px;
+}
